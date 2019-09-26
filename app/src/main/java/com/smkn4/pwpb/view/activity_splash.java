@@ -8,6 +8,7 @@ import android.view.Window;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.smkn4.pwpb.R;
 
@@ -19,9 +20,11 @@ public class activity_splash extends AppCompatActivity {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_splash);
         Animation animFadeIn = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade_in);
-        ImageView iv =(ImageView)findViewById(R.id.logo);
+        TextView tv = (TextView)findViewById(R.id.nk);
+//        ImageView iv =(ImageView)findViewById(R.id.logo);
         //tv hasn't been finished yet
-        iv.startAnimation(animFadeIn);
+//        iv.startAnimation(animFadeIn);
+        tv.startAnimation(animFadeIn);
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
