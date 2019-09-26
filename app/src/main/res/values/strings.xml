@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="activity_title_home">Notes</string>
+    <string name="msg_no_notes">Tidak ada note..</string>
+    <string name="lbl_new_note_title">Tambah</string>
+    <string name="lbl_edit_note_title">Ubah</string>
+    <string name="hint_enter_note">Masukkan note...</string>
+</resources>
